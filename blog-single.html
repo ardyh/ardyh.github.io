@@ -135,7 +135,7 @@
 
                 <p>Okay to understand the difference between those two, let’s say we are going to build a recommender system for books, and of course, our goal is to build a system which can recommend which book a certain user will like, but hasn’t read.</p>
 
-                <p>1.	Collaborative filtering</p>
+                <p class="lead">1.	Collaborative filtering</p>
 
                 <blockquote><p>This algorithm can be called user-centered because it is based on grouping users with similar behavior.</p></blockquote>
                 
@@ -146,50 +146,29 @@
                     </ul>
                 </p>
 
-                <blockquote><p>This is a simple example of a styled blockquote. A blockquote tag typically specifies a section that is quoted from another source of some sort, or highlighting text in your post.</p></blockquote>
+                <p>Because both likes mostly the same books, B and C, the system can recommend books which Joni likes to Jona, vice versa. Meaning, Jona can be recommended book D, and Joni can be recommended book A.</p>
 
-                <p>Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.</p>
+                <p class="lead">2.	Content-Based Recommendation</p>
 
-                <h3>Smaller Heading</h3>
+                <blockquote><p>This algorithm can be called item centered because it is based on grouping items with similar attributes.</p></blockquote>
 
-                <p>Dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.
+                <p>Let’s say there are three books. The Magic, The Hero, and The Love, and for this algorithm we need specific attributes that the books need to have. Let’s say we lay it like this</p>
 
-<pre><code>
-code {
-    font-size: 1.4rem;
-    margin: 0 .2rem;
-    padding: .2rem .6rem;
-    white-space: nowrap;
-    background: #F1F1F1;
-    border: 1px solid #E1E1E1;	
-    border-radius: 3px;
-}
-</code></pre>
+                
+                <img src="images/blog/table.jpg" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: auto;">
+                
+                <p>We can see that in the table, “The Magic” and “The Love” are quite similar because its attributes are distributed in pretty much the same way: high in romance and fantasy, but low in action. Also, “The Hero” is the one pretty different from the others. So we can say that given someone likes “The Love”, he would be recommended to “The Magic” way more than to “The Hero”. </p>
 
-                <p>Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
-
-                <ul>
-                    <li>Donec nulla non metus auctor fringilla.
-                        <ul>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                        </ul>
-                    </li>
-                    <li>Donec nulla non metus auctor fringilla.</li>
-                    <li>Donec nulla non metus auctor fringilla.</li>
-                </ul>
-
-                <p>Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.</p>
+                <p>This is a very rough introduction, and very sorry to say that I still couldn’t include the math, but I very much hope that you understand, so that you can at least show off to your friends while watching the next recommendation at your youtube feed.</p>
 
                 <p class="blog-content__tags">
                     <span>Post Tags</span>
 
                     <span class="blog-content__tag-list">
-                        <a href="#0">orci</a>
-                        <a href="#0">lectus</a>
-                        <a href="#0">varius</a>
-                        <a href="#0">turpis</a>
+                        <a href="#0">Machine Learning</a>
                     </span>
 
                 </p>
@@ -198,14 +177,14 @@ code {
                     <div class="blog-content__nav">
                         <div class="blog-content__prev">
                             <a href="#0" rel="prev">
-                                <span>Previous Post</span>
-                                Tips on Minimalist Design 
+                                <span><!--Previous Post--></span>
+                                <!--Tips on Minimalist Design--> 
                             </a>
                         </div>
                         <div class="blog-content__next">
                             <a href="#0" rel="next">
-                                <span>Next Post</span>
-                                Less Is More 
+                                <span><!--Next Post--></span>
+                                <!--Less Is More -->
                             </a>
                         </div>
                     </div>
