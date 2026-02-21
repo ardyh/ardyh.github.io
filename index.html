@@ -1,22 +1,156 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Repair</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            font-size: 24px;
-        }
-    </style>
-</head>
-<body>
-    Under repair
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website Overview</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="min-h-screen">
+      <header class="border-b border-soft py-8">
+        <div class="max-w-3xl mx-auto px-6">
+          <h1>Your Name</h1>
+          <p class="mt-2 text-muted">Designer, Developer & Creative Thinker</p>
+        </div>
+      </header>
+
+      <main>
+        <section class="py-12">
+          <div class="max-w-3xl mx-auto px-6">
+            <h2 class="mb-6">About</h2>
+            <p class="mb-4">
+              Hello! I'm a passionate creative professional dedicated to building meaningful
+              experiences through design and technology. With a background in both technical
+              development and creative problem-solving, I bring ideas to life.
+            </p>
+            <p class="text-muted">
+              Currently exploring new opportunities and always open to interesting collaborations.
+            </p>
+          </div>
+        </section>
+
+        <section class="py-12 bg-cream-dark">
+          <div class="max-w-3xl mx-auto px-6">
+            <h2 class="mb-8">Interests</h2>
+            <div class="grid grid-cols-1 md-grid-cols-2 gap-8">
+              <div>
+                <h3 class="mb-2">Design Systems</h3>
+                <p class="text-muted">Creating cohesive visual languages and component libraries that scale</p>
+              </div>
+              <div>
+                <h3 class="mb-2">Web Development</h3>
+                <p class="text-muted">Building responsive, accessible, and performant web applications</p>
+              </div>
+              <div>
+                <h3 class="mb-2">User Experience</h3>
+                <p class="text-muted">Crafting intuitive interfaces that delight and empower users</p>
+              </div>
+              <div>
+                <h3 class="mb-2">Creative Coding</h3>
+                <p class="text-muted">Exploring the intersection of art, design, and programming</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="py-12">
+          <div class="max-w-3xl mx-auto px-6">
+            <h2 class="mb-8">Projects & Experience</h2>
+            <div class="space-y-10">
+              <div class="project-block">
+                <div class="project-head">
+                  <h3>Deceptions Case Study</h3>
+                  <span class="text-sm text-muted mt-1 sm-mt-0">2025</span>
+                </div>
+                <p class="mb-3 text-muted">
+                  Analysis of retrieval-augmented models under adversarial content injection, with side-by-side baseline vs. adversarial responses.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">RAG</span>
+                  <span class="tag">Evaluation</span>
+                  <span class="tag">Case Study</span>
+                </div>
+                <p class="mt-2">
+                  <a href="./deceptions.html">View project →</a>
+                </p>
+              </div>
+
+              <div class="project-block">
+                <div class="project-head">
+                  <h3>Portfolio Redesign</h3>
+                  <span class="text-sm text-muted mt-1 sm-mt-0">2024</span>
+                </div>
+                <p class="mb-3 text-muted">
+                  Redesigned and developed a personal portfolio website with a focus on minimalist aesthetics and smooth interactions. Built with React and Tailwind CSS.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">Design</span>
+                  <span class="tag">Development</span>
+                  <span class="tag">React</span>
+                </div>
+              </div>
+
+              <div class="project-block">
+                <div class="project-head">
+                  <h3>E-Commerce Platform</h3>
+                  <span class="text-sm text-muted mt-1 sm-mt-0">2023 - 2024</span>
+                </div>
+                <p class="mb-3 text-muted">
+                  Led the frontend development of a modern e-commerce platform, implementing responsive design patterns and optimizing for performance.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">Frontend</span>
+                  <span class="tag">TypeScript</span>
+                  <span class="tag">UI/UX</span>
+                </div>
+              </div>
+
+              <div class="project-block">
+                <div class="project-head">
+                  <h3>Design System Implementation</h3>
+                  <span class="text-sm text-muted mt-1 sm-mt-0">2023</span>
+                </div>
+                <p class="mb-3 text-muted">
+                  Created a comprehensive design system with reusable components, documentation, and guidelines for a growing product team.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">Design Systems</span>
+                  <span class="tag">Component Library</span>
+                </div>
+              </div>
+
+              <div class="project-block">
+                <div class="project-head">
+                  <h3>Mobile App Prototype</h3>
+                  <span class="text-sm text-muted mt-1 sm-mt-0">2022</span>
+                </div>
+                <p class="mb-3 text-muted">
+                  Designed and prototyped a mobile application for task management, conducting user research and iterating based on feedback.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">Mobile</span>
+                  <span class="tag">Prototyping</span>
+                  <span class="tag">UX Research</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="border-t border-soft py-8 mt-12">
+        <div class="max-w-3xl mx-auto px-6 footer-flex">
+          <p class="text-muted">© 2025 Your Name. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="mailto:your.email@example.com">Email</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
+  
